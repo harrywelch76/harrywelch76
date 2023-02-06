@@ -1,0 +1,4 @@
+name: Upgrade cluster node images
+on:
+  schedule:
+    - cron: '0 6 */15 * *'
